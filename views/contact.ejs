@@ -1,0 +1,23 @@
+<!-- Include the header partial -->
+<%- include("partials/header.ejs") %>
+
+<!-- Main heading for the "Contact Me" page -->
+<h1>Contact Me</h1>
+
+<!-- Start of the contact form -->
+<form>
+  <!-- Input field for the user's name -->
+  <input name="name" type="text" class="feedback-input" placeholder="Name" />
+  
+  <!-- Input field for the user's email -->
+  <input name="email" type="text" class="feedback-input" placeholder="Email" />
+  
+  <!-- Textarea for users to enter their comments or messages -->
+  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+  
+  <!-- Submit button for the form -->
+  <input type="submit" value="SUBMIT" />
+</form>
+
+<!-- Include the footer partial -->
+<%- include("partials/footer.ejs") %>
