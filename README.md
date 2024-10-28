@@ -14,5 +14,5 @@ open package.json and {
 install express: **npm i express**
 install ejs: **npm i ejs**
 install nodemon: **npm i nodemon**
-
+e
 run the server : nodemon index.js
