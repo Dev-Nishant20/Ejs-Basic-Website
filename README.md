@@ -2,7 +2,7 @@
 
 open the files in vs code
 
-open terminal adnd download the required module: **npm i**
+open the terminal adnd download the required module: **npm i**
 
 open package.json and {
   "name": "4.3-partials",
@@ -12,7 +12,10 @@ open package.json and {
   "type": "module",  **Add this**
  
 install express: **npm i express**
+
 install ejs: **npm i ejs**
+
 install nodemon: **npm i nodemon**
-ezdascascascasca
+
+
 run the server : nodemon index.js
